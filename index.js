@@ -6,12 +6,12 @@ const Email = require('./models/Email');
 const Product = require('./models/Products');
 require('dotenv').config();
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 80;
 
-//const db = "mongodb+srv://mihhha1985:nintendo27@cluster0.axbjz.mongodb.net/beats?retryWrites=true&w=majority";
+const db = "mongodb+srv://mihhha1985:nintendo27@cluster0.axbjz.mongodb.net/beats?retryWrites=true&w=majority";
 
 mongoose
-    .connect(process.env.MONGO_DB)
+    .connect(db)
     .then(res => console.log(chalk.bgMagenta.yellow('Connection DB')))
     .catch(err => console.error(err));
 
