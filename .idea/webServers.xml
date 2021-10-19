@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35c2befc-d208-490b-ad81-43ccf7626a41" name="0323" url="http://95.170.156.101">
+        <fileTransfer rootFolder="/var/www/test.0323.ru" accessType="SFTP" sshConfigId="4b731f17-02c2-4ce2-86c9-d4d938b16f0f" sshConfig="0323">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
